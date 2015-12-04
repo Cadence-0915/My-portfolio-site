@@ -1,0 +1,84 @@
+body{
+	background: url("http://nycda.com/wp-content/uploads/2015/08/image00.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+}
+
+
+/*This selector styles the links-lining up horizontally instead of vertically, sets font color and size*/
+li{
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+}
+
+/*This section styles the navbar-puts boxes around the links but removes the bottom border so they look like tabs*/
+ul.navel a{
+	padding: 5px 15px;
+	margin: 0;
+	margin-left: 0px;
+	text-decoration: none;
+	background-color: #eaeaea;
+	border: 1px solid #000;
+	border-bottom: none;
+	color: #49497C;
+	font-family: tahoma;
+}
+
+ul.navel{
+	float: right;
+	padding-bottom: 5px;
+}
+
+.column, .col2{
+	clear: both;
+	background-color: #eaeaea;
+	border: 1px solid #000;
+	height: 120px;
+	margin: 15px;
+	padding: 20px;
+	width: 300px;
+	font-family: tahoma;
+}
+
+nav ul li a:hover {
+    background-color: #89C0C4;
+    color: #000;
+    text-shadow: 0 0 10px #000;
+}
+
+.col2{
+	clear: both;
+	float: right;
+	width: 325px;
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 40px;
+	position: absolute;
+	padding: 22px;
+	text-align: left;
+}
+
+.text-glow-hover{
+	background: #2F2F2F;
+	color: #49497C;
+	background-color: #89C0C4;
+}
+
+.text-glow-hover:hover{
+	text-shadow: 0 0 10px #000;
+}
+
+.col2:hover{
+	background-color: #89C0C4;
+	color: #000;	
+}
+
+.fint{
+	clear: both;
+	display: inline;
+	width: 20px;
+	margin: -10px;
+	float: left;
+}
