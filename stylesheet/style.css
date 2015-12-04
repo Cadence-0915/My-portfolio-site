@@ -48,16 +48,20 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #000;
 }
 
-.col2{
+.column{
 	clear: both;
-	float: right;
+	float: left;
 	width: 325px;
 	margin: 20px;
 	margin-top: 50px;
 	margin-left: 40px;
 	position: absolute;
 	padding: 22px;
-	text-align: left;
+}
+
+.column:hover{
+	background-color: #89C0C4;
+	color: 000;
 }
 
 .text-glow-hover{
