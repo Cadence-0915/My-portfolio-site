@@ -1,0 +1,97 @@
+body{ 
+  font: 14px Georgia, serif; 
+  background: #999;
+}
+
+h1{
+  font: 36px Georgia, Serif;
+  text-align: center;
+  padding: 20px;
+}
+
+p{
+  font: 25px Georgia, Serif;
+  text-align: center;
+  padding: 10px;
+}
+
+#page-wrap{ 
+  width: 100%;
+  max-width: 842px; 
+  background: white;
+  margin: 100px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#tech-slideshow{
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+#tech-slideshow > div{
+  height: 200px;
+  width: 2526px;
+  background: url("http://www.coetail.com/dtrainer/files/2015/03/3b1b99b6.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  -moz-transition:  opacity 0.5s ease-out; 
+     -o-transition: opacity 0.5s ease-out; 
+  -webkit-transition: opacity 0.5s ease-out; 
+    -ms-transition: opacity 0.5s ease-out; 
+
+  /* Slow */
+  -webkit-animation: moveSlideshow 50s linear infinite;
+  -moz-animation:    moveSlideshow 50s linear infinite;
+  
+  -webkit-transform: translate3d(0,0,0); /* Performance */
+}
+
+#tech-slideshow #tech-slideshow-1{
+  /* Sprite */
+  background-position: 0 200px;
+        
+  /* Fast */
+  -webkit-animation: moveSlideshow 15s linear infinite;
+  -moz-animation:    moveSlideshow 15s linear infinite;
+}
+
+#tech-slideshow:hover #tech-slideshow-2{
+    opacity: 0;
+}
+  @-webkit-keyframes moveSlideshow{
+      0%   { 
+          -webkit-transform: translateX(0); 
+          -moz-transform:    translateX(0); 
+          -ms-transform:     translateX(0); 
+          -o-transform:      translateX(0); 
+          transform:         translateX(0); 
+      }    
+      100% { 
+          -webkit-transform: translateX(-1684px); 
+          -moz-transform:    translateX(-1684px); 
+          -ms-transform:     translateX(-1684px); 
+          -o-transform:      translateX(-1684px); 
+          transform:         translateX(-1684px); 
+      }
+  }
+  @-moz-keyframes moveSlideshow {
+      0%   { 
+          -webkit-transform: translateX(0); 
+          -moz-transform:    translateX(0); 
+          -ms-transform:     translateX(0); 
+          -o-transform:      translateX(0); 
+          transform:         translateX(0); 
+      }    
+      100% { 
+          -webkit-transform: translateX(-1684px); 
+          -moz-transform:    translateX(-1684px); 
+          -ms-transform:     translateX(-1684px); 
+          -o-transform:      translateX(-1684px); 
+          transform:         translateX(-1684px); 
+      }
+  }
