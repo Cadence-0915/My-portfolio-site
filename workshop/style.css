@@ -3,7 +3,6 @@ body{
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-
 p{
 	font-weight: bold;
 }
@@ -26,6 +25,10 @@ p{
 
 h1, h3{
 	text-align: center;
+}
+
+h2, p{
+	background: gray;
 }
 
 ul{
