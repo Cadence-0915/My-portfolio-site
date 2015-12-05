@@ -1,5 +1,11 @@
 body{
-	background: url ("https://stocksnap.io/photo/J39VRPKQR8");
+	background: url("http://cdn.morguefile.com/imageData/public/files/p/pippalou/04/l/1396921814zskzs.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+p{
+	font-weight: bold;
 }
 
 .second{
@@ -14,6 +20,7 @@ body{
 
 .idd{
 	clear: both;
+	padding: 110px;
 }
 
 
