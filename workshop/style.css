@@ -1,0 +1,35 @@
+body{
+	background: url ("https://stocksnap.io/photo/J39VRPKQR8");
+}
+
+.second{
+	float: left;
+	padding: 10px;
+}
+
+.third{
+	float: left;
+	padding: 10px;
+}	
+
+.idd{
+	clear: both;
+}
+
+
+h1, h3{
+	text-align: center;
+}
+
+ul{
+	clear: both;
+}
+
+ul, li, a{
+	text-decoration: none;
+	display: inline-block;
+	list-style-type: none;
+	margin: 6px;
+	padding: 6px;
+	font-size: 18px;
+}
