@@ -29,9 +29,9 @@ ul.navel{
 }
 
 nav ul li a:hover {
-    background-color: #89C0C4;
     color: #000;
     text-shadow: 0 0 10px #000;
+    opacity:0.6;
 }
 
 .column{
@@ -51,8 +51,9 @@ nav ul li a:hover {
 }
 
 .column:hover{
-	background-color: #89C0C4;
-	color: #000;	
+	color: #000;
+    text-shadow: 0 0 10px #000;
+    opacity:0.6;	
 }
 
 .fint{
@@ -61,15 +62,29 @@ nav ul li a:hover {
 	width: 20px;
 	margin: -10px;
 	float: left;
+	z-index: -2;
 }
 
-.text-glow-hover{
-	background: #2F2F2F;
-	color: #49497C;
-	background-color: #89C0C4;
+.fint:hover{
+	text-shadow: 0 0 20px #000;
+    opacity:0.6;
 }
 
-.text-glow-hover:hover{
+.text-glow{
+	background-color: #eaeaea;
+	color: #000;
+	margin: 70px;
+	width: 800px;
+}
+
+.text-glow:hover{
 	text-shadow: 0 0 10px #000;
 }
 
+.container{
+	margin-left: 30px;
+}
+
+.container a{
+	text-decoration: none;
+}
