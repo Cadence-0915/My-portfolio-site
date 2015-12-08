@@ -30,9 +30,9 @@ ul.navel{
 }
 
 nav ul li a:hover {
-    background-color: #89C0C4;
-    color: #000;
-    text-shadow: 0 0 10px #000;
+   color: #000;
+   text-shadow: 0 0 10px #000;
+   opacity:0.6;
 }
 
 .fint{
@@ -43,6 +43,10 @@ nav ul li a:hover {
 	float: left;
 }
 
+.fint:hover{
+	text-shadow: 0 0 20px #000;
+    opacity:0.6;
+}
 
 /*Styling for the circular links*/
 .round-button{
