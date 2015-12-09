@@ -1,7 +1,3 @@
-$(document).ready(
-	function(){
-		
-		$("#email").change(function(){
-			alert("That information is invalid.")
-	});
-});
+function Alert() {
+	var answer = confirm ("That entry is invalid.")
+	}
