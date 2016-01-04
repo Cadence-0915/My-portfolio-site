@@ -19,6 +19,11 @@ p{
   float: left;
 }
 
+.intro{
+  background-color: #58726F;
+  clear: both;
+}
+
 .trailer{
 	background-color: #58726F;
 	margin-right: -8px;
