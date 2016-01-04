@@ -5,15 +5,17 @@ body{
 	padding: 100px;
 }
 
+h4{
+	font-size: 18px;
+}
 
-/*This selector styles the links-lining up horizontally instead of vertically, sets font color and size*/
 li{
 	display: inline-block;
 	color: #fff;
 	font-size: 20px;
 }
 
-/*This section styles the navbar-puts boxes around the links but removes the bottom border so they look like tabs*/
+/*This section styles the navbar-puts boxes around the links but removes the bottom border so they look like tabs on a folder*/
 ul.navel a{
 	padding: 5px 15px;
 	margin: 0;
@@ -29,6 +31,28 @@ ul.navel a{
 ul.navel{
 	float: right;
 	padding-bottom: 5px;
+}
+
+.column{
+	clear: both;
+	background-color: #eaeaea;
+	border: 1px solid #000;
+	height: 120px;
+	width: 325px;
+	margin: 20px;
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 40px;
+	position: absolute;
+	padding: 22px;
+	font-family: tahoma;
+	text-align: left;
+}
+
+.column:hover{
+	color: #000;
+    text-shadow: 0 0 10px #000;
+    opacity:0.6;	
 }
 
 .column, .col2{
@@ -64,25 +88,166 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #000;
 }
 
-.text-glow-hover{
-	background: #2F2F2F;
-	color: #49497C;
-	background-color: #89C0C4;
-}
-
-.text-glow-hover:hover{
-	text-shadow: 0 0 10px #000;
-}
-
-.fint{
+.hover{
 	clear: both;
 	display: inline;
 	width: 20px;
 	margin: -10px;
 	float: left;
 }
+.text-glow{
+	background-color: #eaeaea;
+	color: #000;
+	margin: 70px;
+	width: 800px;
+}
 
-.fint:hover{
-	text-shadow: 0 0 20px #000;
-    opacity:0.6;
+.text-glow-hover{
+	background: #2F2F2F;
+	color: #49497C;
+	background-color: #89C0C4;
+	text-shadow: 0 0 10px #000;
+}
+
+.text-glow-hover:hover{
+	text-shadow: 0 0 10px #000;
+}
+
+.container{
+	font-size: 18px;
+	margin-left: 30px;
+}
+
+.container a{
+	text-decoration: none;
+}
+
+
+/*Styling for the round buttons-home page*/
+.round-button{
+	padding: 5%;
+	width:18%;
+}
+
+.rb2{
+	padding: 25%;
+	width:18%;
+	margin-top: -30%;
+}
+
+.rbp2{
+	padding: 25%;
+	width: 18%;
+	margin-top: -30%;
+	margin-left: -3%;
+}
+.rbc3{
+	padding: 25%;
+	width: 18%;
+	margin-top: -86%;
+	margin-left: 18%;
+}	
+
+.round-button-circle{
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #578784; 
+    box-shadow: 0 0 3px gray;
+}
+.rbc-circle{
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89C0C4; 
+    box-shadow: 0 0 3px gray;
+}
+
+.rbc2-circle{
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #89C0C4; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover{
+	background:#89C0C4;
+}
+
+.rbc-circle:hover{
+	background:#578784;
+}
+
+.rbc2-circle:hover{
+	background:#578784;
+}
+.round-button a{
+    display: block;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height: 1em;
+	margin-top: -0.5em;
+	text-align: center;
+	color: #413E44;
+    font-family: Verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rb2 a{
+    display: block;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height:1em;
+	margin-top: -0.5em;
+	text-align: center;
+	color: #413E44;
+    font-family: Verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rbp2 a{
+    display: block;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height:1em;
+	margin-top: -0.5em;
+	text-align: center;
+	color: #413E44;
+    font-family: Verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.rbc3 a{
+    display: block;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height:1em;
+	margin-top: -0.5em;
+	text-align: center;
+	color: #413E44;
+    font-family: Verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skillz{
+	clear: both;
+	margin: 66px;
+	padding: -15px;
 }
