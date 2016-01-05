@@ -1,8 +1,9 @@
 $(document).ready(function(){
-	$(".fury").fadeOut(2100);
-	$(".iron").fadeIn(2100);
-	$("#num").fadeOut(6000);
-	$(".sum").slideup(2400);
-}
-)
+	$(".fury").fadeOut(2500);
+	$(".iron").fadeIn(2500);
+	$("#num").hide(3500);
+$("body").mouseenter(function(){;
+		$(".number").fadeOut(4000);
+	});
+});
 

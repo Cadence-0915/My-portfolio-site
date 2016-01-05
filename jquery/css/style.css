@@ -1,6 +1,7 @@
 body{ 
-  font: 14px Georgia, serif; 
+  font: 25px Georgia, serif; 
   background: #999;
+  text-align: center;
 }
 
 h1{
@@ -10,22 +11,32 @@ h1{
 }
 
 p{
+  clear: both;
   font: 25px Georgia, Serif;
   text-align: center;
-  padding: 10px;
+  padding: 25px;
+  margin: 0;
+}
+
+.number{
+  text-align: right;
 }
 
 .fury, .iron{
   float: left;
+  margin: 20px;
+}
+
+.intro{
+  background-color: #58726F;
+  clear: both;
+  margin: 0;
 }
 
 .trailer{
 	background-color: #58726F;
-	margin-right: -8px;
+	margin-right: -16px;
 	margin-left: -8px;
   text-align: center;
-}
-
-.trailer{
-	clear: both;
+  clear: both;
 }
