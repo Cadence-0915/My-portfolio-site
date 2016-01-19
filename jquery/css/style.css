@@ -1,6 +1,6 @@
 body{ 
   font: 25px Georgia, serif; 
-  background: #999;
+  background: #53517C;
   text-align: center;
 }
 
@@ -28,13 +28,13 @@ p{
 }
 
 .intro{
-  background-color: #58726F;
+  background-color: #42AF89;
   clear: both;
   margin: 0;
 }
 
 .trailer{
-	background-color: #58726F;
+	background-color: #42AF89;
 	margin-right: -16px;
 	margin-left: -8px;
   text-align: center;
