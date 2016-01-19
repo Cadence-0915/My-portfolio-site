@@ -1,0 +1,82 @@
+ul.navel{
+	float: right;
+	padding-bottom: 5px;
+	list-style-type: none;
+}
+
+ul.navel a{
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 0;
+	margin-left: 0px;
+	text-decoration: none;
+	background-color: #87A2B2;
+	border: 1px solid #000;
+	border-bottom: none;
+	color: #FF6666;
+	font-family: Oswald;
+	font-size: 20px;
+}
+
+.container{
+	.content{ margin: 0 auto; width: 900px; }
+}
+
+.picture1, .picture2{ 
+	width: 100%; 
+}
+
+.picture1{
+	background: url('../images/background.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	color: #000;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+}	
+
+.picture2{
+	background-color: #DDC673;
+	color: #333333;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+.picture3{
+	background: url('../images/watercolor.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	color: #000;
+	height: 300px;
+	margin: 0;
+	padding: 180px 0 260px 0;
+}
+
+.picture4{
+	background-color: #7AB0E2;
+	color: #333333;
+	height: 250px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+.picture5{
+	background: url('../images/balloons.jpg') 50% 0 no-repeat fixed;
+	background-size: cover;
+	color: #000;
+	height: 300px;
+	margin: 0;
+	padding: 180px 0 260px 0;
+}
+
+.quotes{
+	width: 800px;
+	margin: 0 auto;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: right;
+    color: #DD2345;
+}

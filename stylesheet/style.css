@@ -1,5 +1,5 @@
 body{
-	background: url("http://nycda.com/wp-content/uploads/2015/08/image00.jpg");
+	background: url("../images/mountains.jpg");
 	background-position: cover;
 	background-repeat: no-repeat;
 	padding: 100px;
@@ -138,8 +138,8 @@ nav ul li a:hover {
 .rbp2{
 	padding: 25%;
 	width: 18%;
-	margin-top: -30%;
-	margin-left: -3%;
+	margin-top: -33%;
+	margin-left: 4%;
 }
 .rbc3{
 	padding: 25%;
@@ -154,7 +154,7 @@ nav ul li a:hover {
 	padding-bottom: 100%;
     border-radius: 50%;
     overflow:hidden;
-    background: #578784; 
+    background: #FF4C4C; 
     box-shadow: 0 0 3px gray;
 }
 .rbc-circle{
@@ -163,7 +163,7 @@ nav ul li a:hover {
 	padding-bottom: 100%;
     border-radius: 50%;
     overflow:hidden;
-    background: #89C0C4; 
+    background: #E27A7A; 
     box-shadow: 0 0 3px gray;
 }
 
@@ -173,19 +173,19 @@ nav ul li a:hover {
 	padding-bottom: 100%;
     border-radius: 50%;
     overflow:hidden;
-    background: #89C0C4; 
+    background: #E27A7A ; 
     box-shadow: 0 0 3px gray;
 }
 .round-button-circle:hover{
-	background:#89C0C4;
+	background:#E27A7A;
 }
 
 .rbc-circle:hover{
-	background:#578784;
+	background:#FF4C4C;
 }
 
 .rbc2-circle:hover{
-	background:#578784;
+	background:#FF4C4C;
 }
 .round-button a{
     display: block;
@@ -250,4 +250,5 @@ nav ul li a:hover {
 	clear: both;
 	margin: 66px;
 	padding: -15px;
+	overflow: scroll;
 }
