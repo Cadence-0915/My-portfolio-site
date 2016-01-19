@@ -1,5 +1,5 @@
 body{
-	background: url("../images/mountains.jpg");
+	background-color: #53517C;
 	background-position: cover;
 	background-repeat: no-repeat;
 	padding: 100px;
@@ -25,7 +25,8 @@ ul.navel a{
 	border: 1px solid #000;
 	border-bottom: none;
 	color: #49497C;
-	font-family: tahoma;
+	font-family: Oswald;
+	font-size: 20px;
 }
 
 ul.navel{
@@ -45,15 +46,11 @@ ul.navel{
 	margin-left: 40px;
 	position: absolute;
 	padding: 22px;
-	font-family: tahoma;
+	font-family: Oswald;
 	text-align: left;
 }
 
-.column:hover{
-	color: #000;
-    text-shadow: 0 0 10px #000;
-    opacity:0.6;	
-}
+
 
 .column, .col2{
 	clear: both;
@@ -63,13 +60,7 @@ ul.navel{
 	margin: 15px;
 	padding: 20px;
 	width: 300px;
-	font-family: tahoma;
-}
-
-nav ul li a:hover {
-    color: #000;
-    text-shadow: 0 0 10px #000;
-    opacity:0.6;
+	font-family: Oswald;
 }
 
 .col2{
@@ -129,6 +120,23 @@ nav ul li a:hover {
 	width:18%;
 }
 
+.rb{
+	padding: 10%;
+	width: 18%;
+	margin-top: -70%;
+	margin-left: 30%;
+}
+
+.rb-circle{
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #FF4C4C; 
+    box-shadow: 0 0 3px gray;
+}
+
 .rb2{
 	padding: 25%;
 	width:18%;
@@ -139,13 +147,13 @@ nav ul li a:hover {
 	padding: 25%;
 	width: 18%;
 	margin-top: -33%;
-	margin-left: 4%;
+	margin-left: -5%;
 }
 .rbc3{
 	padding: 25%;
 	width: 18%;
-	margin-top: -86%;
-	margin-left: 18%;
+	margin-top: -83%;
+	margin-left: 15%;
 }	
 
 .round-button-circle{
@@ -180,6 +188,10 @@ nav ul li a:hover {
 	background:#E27A7A;
 }
 
+.rb-circle:hover{
+	background:#E27A7A;
+}
+
 .rbc-circle:hover{
 	background:#FF4C4C;
 }
@@ -187,6 +199,7 @@ nav ul li a:hover {
 .rbc2-circle:hover{
 	background:#FF4C4C;
 }
+
 .round-button a{
     display: block;
 	width: 100%;
@@ -196,7 +209,22 @@ nav ul li a:hover {
 	margin-top: -0.5em;
 	text-align: center;
 	color: #413E44;
-    font-family: Verdana;
+    font-family: Oswald;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rb a{
+    display: block;
+	width: 100%;
+	padding-top: 50%;
+    padding-bottom: 50%;
+	line-height:1em;
+	margin-top: -0.5em;
+	text-align: center;
+	color: #413E44;
+    font-family: Oswald;
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
@@ -211,7 +239,7 @@ nav ul li a:hover {
 	margin-top: -0.5em;
 	text-align: center;
 	color: #413E44;
-    font-family: Verdana;
+    font-family: Oswald;
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
@@ -226,7 +254,7 @@ nav ul li a:hover {
 	margin-top: -0.5em;
 	text-align: center;
 	color: #413E44;
-    font-family: Verdana;
+    font-family: Oswald;
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
@@ -240,7 +268,7 @@ nav ul li a:hover {
 	margin-top: -0.5em;
 	text-align: center;
 	color: #413E44;
-    font-family: Verdana;
+    font-family: Oswald;
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
