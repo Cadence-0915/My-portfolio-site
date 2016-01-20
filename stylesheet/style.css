@@ -1,7 +1,10 @@
 body{
-	background-color: #53517C;
-	background-position: cover;
+	background-image: url("../images/silk.jpg");
 	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	padding: 100px;
 }
 
