@@ -45,9 +45,8 @@ ul.navel a{
 }
 
 .picture3{
-	background: url('../images/watercolor.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/fall.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
-	color: #000;
 	height: 300px;
 	margin: 0;
 	padding: 180px 0 260px 0;
@@ -65,7 +64,6 @@ ul.navel a{
 .picture5{
 	background: url('../images/balloons.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
-	color: #000;
 	height: 300px;
 	margin: 0;
 	padding: 180px 0 260px 0;
@@ -79,4 +77,14 @@ ul.navel a{
     font-size: 30px;
     text-align: right;
     color: #DD2345;
+}
+
+.quotes2{
+	width: 800px;
+	margin: 0 auto;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: right;
+    color: #A32222;
 }
