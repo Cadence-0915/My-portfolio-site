@@ -10,10 +10,10 @@ ul.navel a{
 	margin: 0;
 	margin-left: 0px;
 	text-decoration: none;
-	background-color: #87A2B2;
+	background-color: #A3A5A0;
 	border: 1px solid #000;
 	border-bottom: none;
-	color: #FF6666;
+	color: #FF4F4F;
 	font-family: Oswald;
 	font-size: 20px;
 }
@@ -27,7 +27,7 @@ ul.navel a{
 }
 
 .picture1{
-	background: url('../images/background.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/dandelion.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
 	color: #000;
 	height: 600px;
@@ -76,7 +76,7 @@ ul.navel a{
     font-weight: normal;
     font-size: 30px;
     text-align: right;
-    color: #DD2345;
+    color: #FF4F4F;
 }
 
 .quotes2{
@@ -86,5 +86,5 @@ ul.navel a{
     font-weight: normal;
     font-size: 30px;
     text-align: right;
-    color: #A32222;
+    color: #004F4B;
 }

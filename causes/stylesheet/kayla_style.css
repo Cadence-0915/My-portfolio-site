@@ -1,0 +1,100 @@
+body{
+	background-image: url("http://preview.themique.com/vertikal/vertikal-charity/wp-content/uploads/sites/11/2014/01/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.home{
+	float: left;
+	margin-top: -38em;;	
+	margin-left: 5px;
+}
+
+.home:hover{
+	opacity:0.6;
+}
+
+li{
+	display: inline-block;
+	font-size: 20px;
+	font-family: tahoma;
+	text-align: center;
+}
+
+ul.knave {
+	padding: 20px;
+	padding-left: 150px;
+}
+
+ul.knave a{
+	padding: 5px 20px;
+	margin: 1px;
+	background-color: #6793BC;
+	border: 1px solid #000;
+	border-bottom: none;
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+	text-decoration: none;
+}
+
+p{
+	clear: both;
+	float: left;
+	font-family: tahoma;
+	font-size: 18px;
+	background-color: #9EADBF;
+	opacity: 0.6;
+	height: 200px;
+	padding: 10px;
+}
+
+.finite{
+	background-color: #9EADBF;	
+	clear: both;
+	float: left;
+	width: 400px;
+	margin-top: -250px;
+	margin-left: 130px;
+	opacity: 0.6;
+	padding: 50px;
+}
+
+
+a.iconlink img{
+  vertical-align:middle;
+  transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+a.iconlink:hover img{
+  opacity:0.6;
+}
+
+.wrapper{
+	clear: both;
+}
+
+.wrapper a{
+	background-color: none;
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+.fixed1{ 
+	position: fixed;
+	bottom: 0;
+	right : 0;
+	width: 600px;
+	background-color:#6793BC;
+	border: dashed #00cc84 5px;
+	display: inline-block;
+	font-size: 12px;
+	font-family: tahoma;
+	text-align: center;
+}
+
+div{ 
+	display: block;
+	}
+

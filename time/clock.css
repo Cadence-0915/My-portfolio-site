@@ -1,0 +1,14 @@
+body{
+  /*background-image: url("http://www.hd-wallpapersdownload.com/upload/bulk-upload/desktop-puppy-images-with-names-dowload.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: #959BD8;
+  color: #fff;
+}
+
+#clock{
+  font-size: 5em;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 350px;
+}

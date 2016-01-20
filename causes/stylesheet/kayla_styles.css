@@ -1,0 +1,181 @@
+body{
+	background-image: url("http://preview.themique.com/vertikal/vertikal-charity/wp-content/uploads/sites/11/2014/01/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.home{
+	float: left;
+	margin-top: -1em;	
+	margin-left: -4px;
+	padding: 10px;
+}
+
+.home:hover{
+	opacity:0.6;
+}
+
+li{
+	display: inline-block;
+	font-size: 20px;
+	font-family: tahoma;
+	text-align: center;
+}
+
+ul.knave {
+	padding: 20px;
+	padding-left: 150px;
+}
+
+ul.knave a{
+	padding: 5px 20px;
+	margin: 1px;
+	background-color: #6793BC;
+	border: 1px solid #000;
+	border-bottom: none;
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+	text-decoration: none;
+}
+
+p{
+	clear: both;
+	float: left;
+	font-family: tah oma;
+	font-size: 18px;
+	background-color: #9EADBF;
+	opacity: 0.6;
+	height: 200px;
+	padding: 10px;
+}
+
+.finite{
+	background-color: #9EADBF;	
+	clear: both;
+	float: left;
+	width: 400px;
+	margin-top: -250px;
+	margin-left: 130px;
+	opacity: 0.6;
+	padding: 50px;
+}
+
+a.iconlink img{
+  vertical-align:middle;
+  transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+a.iconlink:hover img{
+  opacity:0.6;
+}
+
+.wrapper{
+	clear: both;
+}
+
+.wrapper a{
+	background-color: none;
+	color: #000;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.box1:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+.box2:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+.box3:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+.box4:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+.box5:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+.box6:hover{
+	background-color: #9EADBF;
+	opacity:0.6;
+	position: relative;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	border: 5px solid #000;
+	float: left;
+	padding: 20px;
+	padding-left: 20px;
+	width: 280px;
+	margin-left: 130px;
+	margin-top: 20px;
+	text-align: center;	
+}
+.container {
+	background-color: yellow;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.initial {
+  -webkit-flex: initial;
+          flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+
+.fixed1 { 
+	position: fixed;
+	bottom: 0;
+	right : 0;
+	width: 600px;
+	background-color:#6793BC;
+	border: dashed #00cc84 5px;
+	display: inline-block;
+	font-size: 12px;
+	font-family: tahoma;
+	text-align: center;
+}
+	
+.formLayout {
+	background-color: #f3f3f3;
+	border: solid 1px #a1a1a1;
+	color: #49d8bf;
+	padding: 20px;
+	height: 220px;
+	width: 395px;
+	margin: 0 auto;
+	/*clear:both;*/
+}
+
+.formLayout label, .formLayout input
+{
+	display: block;
+	width: 120px;
+	float: left;
+	margin-bottom: 10px;
+}
+.formLayout label
+{
+	text-align: right;
+	padding-right: 20px;
+}
+iframe:focus {
+	outline: none;
+}
+
+iframe[seamless] {
+	display: block;
+}

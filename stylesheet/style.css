@@ -1,9 +1,6 @@
 body{
 	background-image: url("../images/silk.jpg");
 	background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 	padding: 100px;
 }
@@ -24,7 +21,7 @@ ul.navel a{
 	margin: 0;
 	margin-left: 0px;
 	text-decoration: none;
-	background-color: #eaeaea;
+	background-color: #A3A5A0;
 	border: 1px solid #000;
 	border-bottom: none;
 	color: #49497C;
@@ -52,8 +49,6 @@ ul.navel{
 	font-family: Oswald;
 	text-align: left;
 }
-
-
 
 .column, .col2{
 	clear: both;
@@ -90,32 +85,26 @@ ul.navel{
 	float: left;
 }
 .text-glow{
-	background-color: #eaeaea;
-	color: #000;
+	background-color: #A3A5A0;
+	color: #49497C;
 	margin: 70px;
 	width: 800px;
 }
 
-.text-glow-hover{
-	background: #2F2F2F;
-	color: #49497C;
-	background-color: #89C0C4;
-	text-shadow: 0 0 10px #000;
-}
-
-.text-glow-hover:hover{
-	text-shadow: 0 0 10px #000;
-}
-
 .container{
+	font-family: Oswald;
 	font-size: 18px;
-	margin-left: 30px;
+	margin-left: 36px;
 }
 
 .container a{
 	text-decoration: none;
 }
 
+a{
+	padding: 20px;
+	text-decoration: none;
+}
 
 /*Styling for the round buttons-home page*/
 .round-button{
@@ -126,8 +115,8 @@ ul.navel{
 .rb{
 	padding: 10%;
 	width: 18%;
-	margin-top: -70%;
-	margin-left: 30%;
+	margin-top: -68%;
+	margin-left: 26%;
 }
 
 .rb-circle{
@@ -143,20 +132,21 @@ ul.navel{
 .rb2{
 	padding: 25%;
 	width:18%;
-	margin-top: -30%;
+	margin-top: -33%;
+	margin-left: -3%;
 }
 
 .rbp2{
 	padding: 25%;
 	width: 18%;
 	margin-top: -33%;
-	margin-left: -5%;
+	margin-left: -3%;
 }
 .rbc3{
 	padding: 25%;
 	width: 18%;
 	margin-top: -83%;
-	margin-left: 15%;
+	margin-left: 13%;
 }	
 
 .round-button-circle{
@@ -275,6 +265,19 @@ ul.navel{
     font-size: 1.8em;
     font-weight: bold;
     text-decoration: none;
+}
+
+#shade{
+	text-shadow: 2px 2px #49497C;
+}
+
+.skills{
+	clear: both;
+	font-family: Oswald;
+    font-size: 1.6em;
+	margin: 66px;
+	padding: 35px;
+	overflow: scroll;
 }
 
 .skillz{
