@@ -1,0 +1,17 @@
+#wrapper{
+	background-image: url("../images/clover_dinosaur.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 2px solid #000;
+	font-size: 20px;
+	height: 600px;
+	margin: 100px;
+	margin-left: 500px;
+	padding: 1%;
+	text-align: right;
+	width: 395px;
+}
+
+ul, li, #dinosaur{
+	list-style-type: none;
+}

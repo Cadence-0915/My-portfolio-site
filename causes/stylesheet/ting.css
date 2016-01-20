@@ -1,0 +1,9 @@
+.ting{
+	display: inline;
+	width: 65px;
+	margin: 15px;
+	float: right;
+	padding: 15px;
+	bottom: 0; 
+	position: relative;
+}
