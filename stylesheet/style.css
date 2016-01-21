@@ -5,7 +5,7 @@ body{
 	padding: 100px;
 }
 
-h4{
+/*h4{
 	font-size: 18px;
 }
 
@@ -13,26 +13,9 @@ li{
 	display: inline-block;
 	color: #fff;
 	font-size: 20px;
-}
+}*/
 
 /*This section styles the navbar-puts boxes around the links but removes the bottom border so they look like tabs on a folder*/
-ul.navel a{
-	padding: 5px 15px;
-	margin: 0;
-	margin-left: 0px;
-	text-decoration: none;
-	background-color: #A3A5A0;
-	border: 1px solid #000;
-	border-bottom: none;
-	color: #49497C;
-	font-family: Oswald;
-	font-size: 20px;
-}
-
-ul.navel{
-	float: right;
-	padding-bottom: 5px;
-}
 
 .column{
 	clear: both;

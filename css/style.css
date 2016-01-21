@@ -1,6 +1,7 @@
 ul.navel{
 	float: right;
-	padding-bottom: 5px;
+	padding: 20px;
+	padding-bottom: 1px;
 	list-style-type: none;
 }
 
@@ -22,15 +23,26 @@ ul.navel a{
 	.content{ margin: 0 auto; width: 900px; }
 }
 
+.main{
+	margin-top: -45px;
+}
+
+#name{
+	color:#FF4F4F;
+	font-family: Oswald;
+	font-size: 45px;
+	margin-left: 26px;
+}
+
 .picture1, .picture2{ 
 	width: 100%; 
 }
 
 .picture1{
-	background: url('../images/dandelion.jpg') 50% 0 no-repeat fixed;
+	background: url('../images/dandelion.jpg') 50% 0 no-repeat ;
 	background-size: cover;
 	color: #000;
-	height: 600px;
+	height: 560px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 }	
